@@ -482,8 +482,7 @@ Approving another account to spend your tokens is the first step in the third pa
 As a token owner, you can specify any account and any number of tokens that the designated account can transfer on your
 behalf.
 
-You don't have approve all tokens in your account and you can specify a maximum number that an approved account is
-allowed to transfer.
+You don't have to approve all tokens in your account. You can specify the maximum number of your tokens an approved account has permission to transfer.
 
 When you call `approve` multiple times, you overwrite the previously-approved value with the new value.
 By default, the approved value between any two accounts is `0`.
